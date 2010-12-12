@@ -14,7 +14,7 @@ can be used for whatever you want.
 If you improve or extend them, please consider
 sending it back our way!
 
-all add ons written by James George
+addon code written by James George
 
 
 ofxImageSequence
@@ -26,12 +26,13 @@ This class loads only textures to the graphics card and does not store pixel dat
 fast, random access drawing of seuqences
 
 Why would you use this instead of a movie file? A few reasons,
- *	If you want truly random frame access with no lag on large images, ofxImageSequence allows it
 
- *	If you need a movie with alpha channel the only readily available codec 
+ * If you want truly random frame access with no lag on large images, ofxImageSequence allows it
+
+ * If you need a movie with alpha channel the only readily available codec 
 	is Animation (PNG) which is slow at large resolutions, so this class can help with that
 	
- *	If you want to easily access frames based on percents this class makes that easy
+ * If you want to easily access frames based on percents this class makes that easy
 
 
 ofxQTKitVideoGrabber
@@ -48,10 +49,14 @@ Requires Mac OS 10.5 or greater
 
 ofxTSPSReceiver
 /// ************************************
-This addon is a wrapper for receiving openTSPS People Tracking data
-in an OF project.  This is useful for quickly prototyping interactive
+This addon is a wrapper for receiving openTSPS (http://www.opentsps.com) People Tracking data
+in a separate openFrameworks project.  This is useful for quickly prototyping interactive
 designs without having to add all the computer vision code to your oF
 project.
+
+For another example of a project using this addon, check out the sourcecode from workshop
+flightphase participated in during Open/Public Lab in September 2010:
+https://github.com/obviousjim/OpenPublicWorkshop
 
 For this example to work you must be running an instance of OpenTSPS configured
 to send OSC data to this IP on port 12000
@@ -65,5 +70,5 @@ for ofxProjectorBlend addon for openFrameworks ( http://www.openframeworks.cc )
 
 Originally used in the Infiniti MOI project for projector blending ( http://vimeo.com/14588336 )
 
-This shader is capable of blending on all sides, but ofxProjectorBlend currently
+This shader is capable of blending multiple projections on all sides, but ofxProjectorBlend currently
 just uses the shader for two projections at once.
