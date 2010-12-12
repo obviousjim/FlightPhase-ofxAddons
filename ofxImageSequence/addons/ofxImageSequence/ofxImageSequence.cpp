@@ -1,4 +1,3 @@
-
 /**
  *  ofxImageSequence.cpp
  *

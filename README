@@ -1,0 +1,69 @@
+///************************************** //////
+/// openFrameworks addons by FlightPhase  /////
+///                                       ////
+/// http://www.flightphase.com            ///
+///                                       //
+/// ************************************  /
+These openFrameworks addons were created for 
+interactive motion graphics projects and 
+are hopefully reusable by some.
+
+The are released under the MIT license and
+can be used for whatever you want.
+
+If you improve or extend them, please consider
+sending it back our way!
+
+all add ons written by James George
+
+
+ofxImageSequence
+/// ************************************
+ofxImageSequence is a class for easily loading a series of image files
+and accessing them like you would frames of a movie.
+ 
+This class loads only textures to the graphics card and does not store pixel data in memory. This helps with
+fast, random access drawing of seuqences
+
+Why would you use this instead of a movie file? A few reasons,
+ *	If you want truly random frame access with no lag on large images, ofxImageSequence allows it
+
+ *	If you need a movie with alpha channel the only readily available codec 
+	is Animation (PNG) which is slow at large resolutions, so this class can help with that
+	
+ *	If you want to easily access frames based on percents this class makes that easy
+
+
+ofxQTKitVideoGrabber
+/// ************************************
+This addon replaces the functionality of the standard ofMovieGrabber
+but uses the QTKit Objective-C Libraries to drive the video display.
+These libraries are naturally GPU enabled, multi-threaded, as well
+as supporting more Quicktime capture codecs such as HDV.
+
+You will need to add the QTKit.framework and CoreVideo.framework
+to the openFrameworks Xcode project
+
+Requires Mac OS 10.5 or greater
+
+ofxTSPSReceiver
+/// ************************************
+This addon is a wrapper for receiving openTSPS People Tracking data
+in an OF project.  This is useful for quickly prototyping interactive
+designs without having to add all the computer vision code to your oF
+project.
+
+For this example to work you must be running an instance of OpenTSPS configured
+to send OSC data to this IP on port 12000
+
+ofxProjectorBlend
+/// ************************************
+This class is an openFrameworks wrapper for this technique:
+from http://local.wasp.uwa.edu.au/~pbourke/texture_colour/edgeblend/
+Original Core Image filter converted by James George ( http://www.jamesgeorge.org/ )
+for ofxProjectorBlend addon for openFrameworks ( http://www.openframeworks.cc )
+
+Originally used in the Infiniti MOI project for projector blending ( http://vimeo.com/14588336 )
+
+This shader is capable of blending on all sides, but ofxProjectorBlend currently
+just uses the shader for two projections at once.

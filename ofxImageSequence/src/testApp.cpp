@@ -29,7 +29,7 @@
  *
  * ----------------------
  *
- * Simpel ofxImageSequence example using Muybridge horse
+ * simple ofxImageSequence example using Muybridge horse
  */
 
 #include "testApp.h"

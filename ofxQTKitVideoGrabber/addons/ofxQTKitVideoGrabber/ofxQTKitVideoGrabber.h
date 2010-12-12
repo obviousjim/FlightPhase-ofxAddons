@@ -32,7 +32,7 @@
  * These libraries are naturally GPU enabled, multi-threaded, as well
  * as supporting more Quicktime capture codecs such as HDV.
  *
- * You will need to add the QTKit.framework and CoreVide.framework
+ * You will need to add the QTKit.framework and CoreVideo.framework
  * to the openFrameworks Xcode project
  *
  * Requires Mac OS 10.5 or greater
