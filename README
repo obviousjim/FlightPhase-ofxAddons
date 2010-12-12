@@ -4,26 +4,23 @@
 /// http://www.flightphase.com            ///
 ///                                       //
 /// ************************************  /
-These openFrameworks addons were created for 
-interactive motion graphics projects and 
-are hopefully reusable by some.
+These openFrameworks addons were created for interactive motion graphics projects and 
+are hopefully reusable.
 
-The are released under the MIT license and
-can be used for whatever you want.
+They are released under the MIT license and can be used for whatever you want.
 
-If you improve or extend them, please consider
-sending it back our way!
+If you improve or extend them, please consider sending it back our way!
 
 addon code written by James George
-
+art: http://www.jamesgeorge.org
 
 ofxImageSequence
 /// ************************************
-ofxImageSequence is a class for easily loading a series of image files
+This addon is for loading a series of image files
 and accessing them like you would frames of a movie.
  
 This class loads only textures to the graphics card and does not store pixel data in memory. This helps with
-fast, random access drawing of seuqences
+fast, random access drawing of sequences without too much memory overhead.
 
 Why would you use this instead of a movie file? A few reasons,
 
@@ -47,6 +44,19 @@ to the openFrameworks Xcode project
 
 Requires Mac OS 10.5 or greater
 
+
+ofxProjectorBlend
+/// ************************************
+This class is an openFrameworks wrapper for this technique:
+from http://local.wasp.uwa.edu.au/~pbourke/texture_colour/edgeblend/
+Original Core Image filter converted by James George ( http://www.jamesgeorge.org/ )
+for ofxProjectorBlend addon for openFrameworks ( http://www.openframeworks.cc )
+
+Originally used in the Infiniti MOI project for projector blending ( http://vimeo.com/14588336 )
+
+This shader is capable of blending multiple projections on all sides, but ofxProjectorBlend currently
+just uses the shader for two projections at once.
+
 ofxTSPSReceiver
 /// ************************************
 This addon is a wrapper for receiving openTSPS (http://www.opentsps.com) People Tracking data
@@ -60,15 +70,3 @@ https://github.com/obviousjim/OpenPublicWorkshop
 
 For this example to work you must be running an instance of OpenTSPS configured
 to send OSC data to this IP on port 12000
-
-ofxProjectorBlend
-/// ************************************
-This class is an openFrameworks wrapper for this technique:
-from http://local.wasp.uwa.edu.au/~pbourke/texture_colour/edgeblend/
-Original Core Image filter converted by James George ( http://www.jamesgeorge.org/ )
-for ofxProjectorBlend addon for openFrameworks ( http://www.openframeworks.cc )
-
-Originally used in the Infiniti MOI project for projector blending ( http://vimeo.com/14588336 )
-
-This shader is capable of blending multiple projections on all sides, but ofxProjectorBlend currently
-just uses the shader for two projections at once.
