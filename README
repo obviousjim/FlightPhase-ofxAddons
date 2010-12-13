@@ -70,3 +70,9 @@ https://github.com/obviousjim/OpenPublicWorkshop
 
 For this example to work you must be running an instance of OpenTSPS configured
 to send OSC data to this IP on port 12000
+
+ofxAlphaMaskShader
+/// ************************************
+Not really an add on, but an example of how to use a shader to use one
+image as the alpha channel of another, much like an image mask in photoshop/
+
