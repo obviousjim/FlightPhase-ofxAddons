@@ -1,963 +1,0 @@
-TofxAlphaMaskShader
-v7
-r0
-t314047887.322456
-cCheck dependencies
-cProcessInfoPlistFile "/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/apps/FlightPhase-ofxAddons/ofxAlphaMaskShader/bin//ShaderAlphaMaskDebug.app/Contents/Info.plist" openFrameworks-Info.plist
-cProcessPCH++ /var/folders/Wd/Wd+V+rsCFoukrJzDRb130++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-bvljphpwmptdwbdzoomactvfalvn/Carbon.h.gch /System/Library/Frameworks/Carbon.framework/Headers/Carbon.h normal i386 c++ com.apple.compilers.gcc.4_2
-cPhaseScriptExecution "Run Script" "/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/apps/FlightPhase-ofxAddons/ofxAlphaMaskShader/build/ofxAlphaMaskShader.build/Debug/ofxAlphaMaskShader.build/Script-E4B6FFFD0C3F9AB9008CF71C.sh"
-cPBXCp bin/ShaderAlphaMaskDebug.app/Contents/Frameworks/GLUT.framework ../../../libs/glut/lib/osx/GLUT.framework
-cPBXCp bin/ShaderAlphaMaskDebug.app/Contents/Resources/openFrameworks-Info.plist openFrameworks-Info.plist
-
-N/Developer/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/stddef.h
-c000000004BE89DD40000000000003197
-t1273535956
-s12695
-i<machine/ansi.h>
-i<sys/_types.h>
-
-N/System/Library/Frameworks/AGL.framework/AGL
-c000000004BD2589F0000000000043820
-t1272076447
-s276512
-
-N/System/Library/Frameworks/AppKit.framework/AppKit
-c000000004C623FBF0000000002B48610
-t1281507263
-s45385232
-
-N/System/Library/Frameworks/ApplicationServices.framework/ApplicationServices
-c000000004A12050E0000000000022140
-t1242694926
-s139584
-
-N/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
-c000000004C91794F00000000004D2720
-t1284602191
-s5056288
-
-N/System/Library/Frameworks/Carbon.framework/Carbon
-c000000004C0FDD7E000000000000A5F0
-t1276108158
-s42480
-
-N/System/Library/Frameworks/Carbon.framework/Headers/Carbon.h
-c00000000000000000000000000000000
-t2
-s0
-
-N/System/Library/Frameworks/Cocoa.framework/Cocoa
-c000000004A1F2D63000000000000A5E0
-t1243557219
-s42464
-
-N/System/Library/Frameworks/CoreAudio.framework/CoreAudio
-c000000004CD4F57800000000002181A0
-t1289024888
-s2195872
-
-N/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
-c000000004C971DAF0000000000781330
-t1284971951
-s7869232
-
-N/System/Library/Frameworks/CoreServices.framework/CoreServices
-c000000004C23F49F0000000000021710
-t1277424799
-s136976
-
-N/System/Library/Frameworks/IOKit.framework/IOKit
-c000000004C8AD97D000000000017B260
-t1284168061
-s1552992
-
-N/System/Library/Frameworks/OpenGL.framework/OpenGL
-c000000004CD4F7840000000000043330
-t1289025412
-s275248
-
-N/System/Library/Frameworks/QuickTime.framework/QuickTime
-c000000004CC7AED00000000000783950
-t1288154832
-s7878992
-
-N/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/apps/FlightPhase-ofxAddons/ofxAlphaMaskShader/../../../libs/FreeImage/lib/osx/freeimage.a
-c000000004CF0536A0000000000AA64B0
-t1290818410
-s11166896
-
-N/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/apps/FlightPhase-ofxAddons/ofxAlphaMaskShader/../../../libs/GLee/include/GLee.h
-c000000004CF0537E0000000000090A87
-t1290818430
-s592519
-i<windows.h>
-i<GL/gl.h>
-i<OpenGL/gl.h>
-i<GL/gl.h>
-i<GL/glx.h>
-i<stddef.h>
-
-N/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/apps/FlightPhase-ofxAddons/ofxAlphaMaskShader/../../../libs/GLee/lib/osx/GLee.a
-c000000004CF0538000000000000C88C8
-t1290818432
-s821448
-
-N/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/apps/FlightPhase-ofxAddons/ofxAlphaMaskShader/../../../libs/fmodex/include/fmod.h
-c000000004CF0532B0000000000028E68
-t1290818347
-s167528
-i"fmod_codec.h"
-i"fmod_dsp.h"
-i"fmod_memoryinfo.h"
-
-N/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/apps/FlightPhase-ofxAddons/ofxAlphaMaskShader/../../../libs/fmodex/include/fmod_errors.h
-c000000004CF0532B0000000000003408
-t1290818347
-s13320
-i"fmod.h"
-
-N/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/apps/FlightPhase-ofxAddons/ofxAlphaMaskShader/../../../libs/fmodex/lib/osx/libfmodex.dylib
-c000000004CF0532C00000000001DD8CC
-t1290818348
-s1956044
-
-N/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/apps/FlightPhase-ofxAddons/ofxAlphaMaskShader/../../../libs/freeimage/include/FreeImage.h
-c000000004CF0533F000000000000CC1B
-t1290818367
-s52251
-i<wchar.h>
-i<inttypes.h>
-
-N/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/apps/FlightPhase-ofxAddons/ofxAlphaMaskShader/../../../libs/freetype/lib/osx/freetype.a
-c000000004CF0533F00000000004D82C8
-t1290818367
-s5079752
-
-N/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/apps/FlightPhase-ofxAddons/ofxAlphaMaskShader/../../../libs/glut/lib/osx/GLUT.framework
-c000000004CF0537600000000000000EE
-t1290818422
-s238
-
-N/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/apps/FlightPhase-ofxAddons/ofxAlphaMaskShader/../../../libs/glut/lib/osx/GLUT.framework/GLUT
-c000000004CF05376000000000011A218
-t1290818422
-s1155608
-
-N/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/apps/FlightPhase-ofxAddons/ofxAlphaMaskShader/../../../libs/poco/lib/osx/CppUnit.a
-c000000004CF052E8000000000003ABB0
-t1290818280
-s240560
-
-N/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/apps/FlightPhase-ofxAddons/ofxAlphaMaskShader/../../../libs/poco/lib/osx/PocoFoundation.a
-c000000004CF052E800000000005A62E8
-t1290818280
-s5923560
-
-N/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/apps/FlightPhase-ofxAddons/ofxAlphaMaskShader/../../../libs/poco/lib/osx/PocoNet.a
-c000000004CF052E80000000000378278
-t1290818280
-s3637880
-
-N/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/apps/FlightPhase-ofxAddons/ofxAlphaMaskShader/../../../libs/poco/lib/osx/PocoUtil.a
-c000000004CF052E800000000000FFB80
-t1290818280
-s1047424
-
-N/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/apps/FlightPhase-ofxAddons/ofxAlphaMaskShader/../../../libs/poco/lib/osx/PocoXML.a
-c000000004CF052E80000000000239BC0
-t1290818280
-s2333632
-
-N/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/apps/FlightPhase-ofxAddons/ofxAlphaMaskShader/../../../libs/rtAudio/lib/osx/rtAudio.a
-c000000004CF0537300000000000BC8E8
-t1290818419
-s772328
-
-N/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/apps/FlightPhase-ofxAddons/ofxAlphaMaskShader/bin//ShaderAlphaMaskDebug.app
-t2
-s0
-
-N/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/apps/FlightPhase-ofxAddons/ofxAlphaMaskShader/bin//ShaderAlphaMaskDebug.app/Contents/Info.plist
-t1292355086
-s624
-
-N/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/apps/FlightPhase-ofxAddons/ofxAlphaMaskShader/bin//ShaderAlphaMaskDebug.app/Contents/MacOS/ShaderAlphaMaskDebug
-t2
-s0
-
-N/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/apps/FlightPhase-ofxAddons/ofxAlphaMaskShader/bin//ShaderAlphaMaskDebug.app/Contents/PkgInfo
-t1292355086
-s8
-
-N/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/apps/FlightPhase-ofxAddons/ofxAlphaMaskShader/bin/ShaderAlphaMaskDebug.app/Contents/Frameworks/GLUT.framework
-t1292355087
-s204
-
-N/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/apps/FlightPhase-ofxAddons/ofxAlphaMaskShader/bin/ShaderAlphaMaskDebug.app/Contents/Resources/openFrameworks-Info.plist
-t1292355087
-s631
-
-N/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/apps/FlightPhase-ofxAddons/ofxAlphaMaskShader/build/ofxAlphaMaskShader.build/Debug/ofxAlphaMaskShader.build/Objects-normal/i386/ShaderAlphaMaskDebug.LinkFileList
-c000000004D07C60E00000000000002C9
-t1292355086
-s713
-
-N/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/apps/FlightPhase-ofxAddons/ofxAlphaMaskShader/build/ofxAlphaMaskShader.build/Debug/ofxAlphaMaskShader.build/Objects-normal/i386/main.o
-t2
-s0
-
-N/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/apps/FlightPhase-ofxAddons/ofxAlphaMaskShader/build/ofxAlphaMaskShader.build/Debug/ofxAlphaMaskShader.build/Objects-normal/i386/ofxShader.o
-t2
-s0
-
-N/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/apps/FlightPhase-ofxAddons/ofxAlphaMaskShader/build/ofxAlphaMaskShader.build/Debug/ofxAlphaMaskShader.build/Objects-normal/i386/testApp.o
-t2
-s0
-
-N/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/apps/FlightPhase-ofxAddons/ofxAlphaMaskShader/build/ofxAlphaMaskShader.build/Debug/ofxAlphaMaskShader.build/Script-E4B6FFFD0C3F9AB9008CF71C.sh
-c000000004D07C60E0000000000000113
-t1292355086
-s275
-
-N/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/apps/FlightPhase-ofxAddons/ofxAlphaMaskShader/openFrameworks-Info.plist
-c000000004D07C4B30000000000000277
-t1292354739
-s631
-
-N/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/apps/FlightPhase-ofxAddons/ofxAlphaMaskShader/src/main.cpp
-c000000004D07C4B30000000000000726
-t1292354739
-s1830
-i"ofMain.h"
-i"testApp.h"
-i"ofAppGlutWindow.h"
-
-N/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/apps/FlightPhase-ofxAddons/ofxAlphaMaskShader/src/ofxShader/src/ofxShader.cpp
-c000000004D07C4B30000000000002DA9
-t1292354739
-s11689
-i"ofxShader.h"
-
-N/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/apps/FlightPhase-ofxAddons/ofxAlphaMaskShader/src/ofxShader/src/ofxShader.h
-c000000004D07C4B30000000000000F3C
-t1292354739
-s3900
-i"ofMain.h"
-i<fstream>
-
-N/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/apps/FlightPhase-ofxAddons/ofxAlphaMaskShader/src/testApp.cpp
-c000000004D07C4B300000000000012EA
-t1292354739
-s4842
-i"testApp.h"
-
-N/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/apps/FlightPhase-ofxAddons/ofxAlphaMaskShader/src/testApp.h
-c000000004D07C4B300000000000007A1
-t1292354739
-s1953
-i"ofMain.h"
-i"ofxShader.h"
-
-N/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/libs/fmodex/include/fmod.h
-c000000004CF0532B0000000000028E68
-t1290818347
-s167528
-i"fmod_codec.h"
-i"fmod_dsp.h"
-i"fmod_memoryinfo.h"
-
-N/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/libs/fmodex/include/fmod_codec.h
-c000000004CF0532B000000000000334A
-t1290818347
-s13130
-
-N/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/libs/fmodex/include/fmod_dsp.h
-c000000004CF0532B000000000000892F
-t1290818347
-s35119
-
-N/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/libs/fmodex/include/fmod_memoryinfo.h
-c000000004CF0532B0000000000003C95
-t1290818347
-s15509
-
-N/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/libs/glut/lib/osx/GLUT.framework/Headers/glut.h
-c000000004CF05376000000000000578C
-t1290818422
-s22412
-i<windows.h>
-i<AvailabilityMacros.h>
-i<OpenGL/gl.h>
-i<OpenGL/glu.h>
-i<GL/gl.h>
-i<GL/glu.h>
-
-N/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/libs/openFrameworks/app/ofAppBaseWindow.h
-c000000004CF0532C0000000000000446
-t1290818348
-s1094
-i"ofTypes.h"
-
-N/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/libs/openFrameworks/app/ofAppGlutWindow.h
-c000000004CF0532C0000000000000681
-t1290818348
-s1665
-i"ofConstants.h"
-i"ofAppBaseWindow.h"
-i"ofEvents.h"
-i"glut.h"
-i<GLUT/glut.h>
-i<GL/glut.h>
-
-N/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/libs/openFrameworks/app/ofAppRunner.h
-c000000004CF0532C000000000000050D
-t1290818348
-s1293
-i"ofMain.h"
-i"ofBaseApp.h"
-i"ofAppBaseWindow.h"
-i"ofAppGlutWindow.h"
-
-N/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/libs/openFrameworks/app/ofBaseApp.h
-c000000004CF0532C0000000000000376
-t1290818348
-s886
-i"ofTypes.h"
-
-N/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/libs/openFrameworks/communication/ofArduino.h
-c000000004CF0532C0000000000003D3C
-t1290818348
-s15676
-i<list>
-i<vector>
-i<string>
-i<iostream>
-i"ofEvents.h"
-i"ofSerial.h"
-
-N/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/libs/openFrameworks/communication/ofSerial.h
-c000000004CF0532C0000000000000D2E
-t1290818348
-s3374
-i"ofConstants.h"
-i<termios.h>
-i<sys/ioctl.h>
-i<getopt.h>
-i<dirent.h>
-i<winbase.h>
-i<tchar.h>
-i<iostream>
-i<string.h>
-i<setupapi.h>
-i<regstr.h>
-i<winioctl.h>
-i<initguid.h>
-i<stdio.h>
-i<stdlib.h>
-i<string.h>
-i<fcntl.h>
-i<errno.h>
-i<ctype.h>
-
-N/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/libs/openFrameworks/events/ofEventUtils.h
-c000000004CF0532C0000000000000AFA
-t1290818348
-s2810
-i"ofConstants.h"
-i"Poco/FIFOEvent.h"
-i"Poco/Delegate.h"
-
-N/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/libs/openFrameworks/events/ofEvents.h
-c000000004CF0532C0000000000001406
-t1290818348
-s5126
-i"ofConstants.h"
-i"ofUtils.h"
-i"ofEventUtils.h"
-i"ofxEventUtils.h"
-
-N/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/libs/openFrameworks/graphics/ofGraphics.h
-c000000004CF0532C00000000000014FC
-t1290818348
-s5372
-i"ofConstants.h"
-i"ofTypes.h"
-
-N/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/libs/openFrameworks/graphics/ofImage.h
-c000000004CF0532C0000000000000E59
-t1290818348
-s3673
-i"ofConstants.h"
-i"ofTexture.h"
-i"ofGraphics.h"
-i"ofAppRunner.h"
-i"FreeImage.h"
-i"ofUtils.h"
-
-N/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/libs/openFrameworks/graphics/ofTexture.h
-c000000004CF0532C0000000000000D52
-t1290818348
-s3410
-i"ofConstants.h"
-i"ofGraphics.h"
-
-N/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/libs/openFrameworks/graphics/ofTrueTypeFont.h
-c000000004CF0532C000000000000087A
-t1290818348
-s2170
-i"ofConstants.h"
-i"ofGraphics.h"
-i"ofUtils.h"
-i"ofTypes.h"
-
-N/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/libs/openFrameworks/ofMain.h
-c000000004CF0532C0000000000000347
-t1290818348
-s839
-i"ofConstants.h"
-i"ofMath.h"
-i"ofUtils.h"
-i"ofTypes.h"
-i"ofSerial.h"
-i"ofArduino.h"
-i"ofTexture.h"
-i"ofTrueTypeFont.h"
-i"ofGraphics.h"
-i"ofImage.h"
-i"ofBaseApp.h"
-i"ofAppRunner.h"
-i"ofSoundStream.h"
-i"ofSoundPlayer.h"
-i"ofVideoGrabber.h"
-i"ofVideoPlayer.h"
-i"ofEvents.h"
-
-N/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/libs/openFrameworks/sound/ofSoundPlayer.h
-c000000004CF0532C00000000000006C3
-t1290818348
-s1731
-i"ofConstants.h"
-i"fmod.h"
-i"fmod_errors.h"
-
-N/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/libs/openFrameworks/sound/ofSoundStream.h
-c000000004CF0532C0000000000000254
-t1290818348
-s596
-i"ofConstants.h"
-i"ofBaseApp.h"
-i"ofEvents.h"
-i"ofMath.h"
-
-N/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/libs/openFrameworks/utils/ofConstants.h
-c000000004CF0532C0000000000002B39
-t1290818348
-s11065
-i<TargetConditionals.h>
-i<windows.h>
-i"GLee.h"
-i"glu.h"
-i<unistd.h>
-i<OpenGL/gl.h>
-i<OpenGL/glext.h>
-i<OpenGL/glu.h>
-i<ApplicationServices/ApplicationServices.h>
-i<unistd.h>
-i<GL/gl.h>
-i<GL/glx.h>
-i<GL/glext.h>
-i<GL/glu.h>
-i<OpenGLES/ES1/gl.h>
-i<OpenGLES/ES1/glext.h>
-i<cstdlib>
-i<cstdio>
-i<cstdarg>
-i<cmath>
-i<ctime>
-i<cstdlib>
-i<string>
-i<iostream>
-i<vector>
-i<cstring>
-i<sstream>
-i<iomanip>
-i<fstream>
-
-N/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/libs/openFrameworks/utils/ofMath.h
-c000000004CF0532C0000000000000A66
-t1290818348
-s2662
-i"ofConstants.h"
-i"ofTypes.h"
-
-N/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/libs/openFrameworks/utils/ofTypes.h
-c000000004CF0532C0000000000004338
-t1290818348
-s17208
-i"ofConstants.h"
-i"ofUtils.h"
-
-N/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/libs/openFrameworks/utils/ofUtils.h
-c000000004CF0532C0000000000000634
-t1290818348
-s1588
-i"ofConstants.h"
-i<shellapi.h>
-
-N/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/libs/openFrameworks/video/ofGstUtils.h
-c000000004CF0532C0000000000000B55
-t1290818348
-s2901
-i<gst/gst.h>
-i<pthread.h>
-i"ofConstants.h"
-
-N/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/libs/openFrameworks/video/ofQtUtils.h
-c000000004CF0532C00000000000006CF
-t1290818348
-s1743
-i"ofConstants.h"
-i"ofGraphics.h"
-i<QuickTime/QuickTime.h>
-i<CoreServices/CoreServices.h>
-i<ApplicationServices/ApplicationServices.h>
-i<QTML.h>
-i<FixMath.h>
-i<QuickTimeComponents.h>
-i<TextUtils.h>
-i<MediaHandlers.h>
-
-N/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/libs/openFrameworks/video/ofVideoGrabber.h
-c000000004CF0532C0000000000000C9C
-t1290818348
-s3228
-i"ofConstants.h"
-i"ofTexture.h"
-i"ofGraphics.h"
-i"ofTypes.h"
-i"ofQtUtils.h"
-i"videoInput.h"
-i"ofUCUtils.h"
-i"ofGstUtils.h"
-
-N/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/libs/openFrameworks/video/ofVideoPlayer.h
-c000000004CF0532C0000000000000C33
-t1290818348
-s3123
-i"ofConstants.h"
-i"ofTexture.h"
-i"ofGstUtils.h"
-i"ofQtUtils.h"
-
-N/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/libs/openFrameworksCompiled/lib/osx/openFrameworksDebug.a
-c000000004CF2BF1D0000000000C41528
-t1290977053
-s12850472
-
-N/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/libs/poco/include/Poco/AbstractDelegate.h
-c000000004CF052960000000000000B2E
-t1290818198
-s2862
-i"Poco/Foundation.h"
-
-N/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/libs/poco/include/Poco/AbstractEvent.h
-c000000004CF052960000000000002C6A
-t1290818198
-s11370
-i"Poco/Foundation.h"
-i"Poco/SingletonHolder.h"
-i"Poco/SharedPtr.h"
-i"Poco/ActiveResult.h"
-i"Poco/ActiveMethod.h"
-i"Poco/Mutex.h"
-
-N/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/libs/poco/include/Poco/ActiveMethod.h
-c000000004CF052960000000000001C64
-t1290818198
-s7268
-i"Poco/Foundation.h"
-i"Poco/ActiveResult.h"
-i"Poco/ActiveRunnable.h"
-i"Poco/ActiveStarter.h"
-i"Poco/AutoPtr.h"
-
-N/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/libs/poco/include/Poco/ActiveResult.h
-c000000004CF052960000000000002E66
-t1290818198
-s11878
-i"Poco/Foundation.h"
-i"Poco/Mutex.h"
-i"Poco/Event.h"
-i"Poco/RefCountedObject.h"
-i"Poco/Exception.h"
-i<algorithm>
-
-N/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/libs/poco/include/Poco/ActiveRunnable.h
-c000000004CF052960000000000001785
-t1290818198
-s6021
-i"Poco/Foundation.h"
-i"Poco/ActiveResult.h"
-i"Poco/Runnable.h"
-i"Poco/RefCountedObject.h"
-i"Poco/AutoPtr.h"
-i"Poco/Exception.h"
-
-N/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/libs/poco/include/Poco/ActiveStarter.h
-c000000004CF052960000000000000927
-t1290818198
-s2343
-i"Poco/Foundation.h"
-i"Poco/ThreadPool.h"
-i"Poco/ActiveRunnable.h"
-
-N/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/libs/poco/include/Poco/AutoPtr.h
-c000000004CF052960000000000001E0C
-t1290818198
-s7692
-i"Poco/Foundation.h"
-i"Poco/Exception.h"
-i<algorithm>
-
-N/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/libs/poco/include/Poco/Bugcheck.h
-c000000004CF0529600000000000012FE
-t1290818198
-s4862
-i"Poco/Foundation.h"
-i<string>
-
-N/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/libs/poco/include/Poco/CompareFunctions.h
-c000000004CF0529600000000000007EC
-t1290818198
-s2028
-i"Poco/Foundation.h"
-i<functional>
-
-N/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/libs/poco/include/Poco/Config.h
-c000000004CF0529600000000000008B5
-t1290818198
-s2229
-
-N/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/libs/poco/include/Poco/Delegate.h
-c000000004CF052960000000000001802
-t1290818198
-s6146
-i"Poco/Foundation.h"
-i"Poco/AbstractDelegate.h"
-i"Poco/FunctionDelegate.h"
-i"Poco/Expire.h"
-
-N/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/libs/poco/include/Poco/Event.h
-c000000004CF052960000000000000E21
-t1290818198
-s3617
-i"Poco/Foundation.h"
-i"Poco/Exception.h"
-i"Poco/Event_WIN32.h"
-i"Poco/Event_POSIX.h"
-
-N/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/libs/poco/include/Poco/Event_POSIX.h
-c000000004CF052960000000000000A91
-t1290818198
-s2705
-i"Poco/Foundation.h"
-i"Poco/Exception.h"
-i<pthread.h>
-i<errno.h>
-
-N/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/libs/poco/include/Poco/Event_WIN32.h
-c000000004CF052960000000000000947
-t1290818198
-s2375
-i"Poco/Foundation.h"
-i"Poco/Exception.h"
-i"Poco/UnWindows.h"
-
-N/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/libs/poco/include/Poco/Exception.h
-c000000004CF0529600000000000026AC
-t1290818198
-s9900
-i"Poco/Foundation.h"
-i<stdexcept>
-
-N/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/libs/poco/include/Poco/Expire.h
-c000000004CF052960000000000000CF1
-t1290818198
-s3313
-i"Poco/Foundation.h"
-i"Poco/AbstractDelegate.h"
-i"Poco/Timestamp.h"
-
-N/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/libs/poco/include/Poco/FIFOEvent.h
-c000000004CF052960000000000000AD4
-t1290818198
-s2772
-i"Poco/AbstractEvent.h"
-i"Poco/FIFOStrategy.h"
-i"Poco/AbstractDelegate.h"
-i"Poco/CompareFunctions.h"
-
-N/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/libs/poco/include/Poco/FIFOStrategy.h
-c000000004CF0529600000000000010F3
-t1290818198
-s4339
-i"Poco/NotificationStrategy.h"
-i<map>
-i<list>
-i<memory>
-
-N/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/libs/poco/include/Poco/Foundation.h
-c000000004CF052960000000000001023
-t1290818198
-s4131
-i"Poco/Config.h"
-i"Poco/Platform.h"
-i"Poco/Platform_WIN32.h"
-i"Poco/Platform_VMS.h"
-i"Poco/Platform_POSIX.h"
-i"Poco/Bugcheck.h"
-i"Poco/Types.h"
-i<string>
-
-N/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/libs/poco/include/Poco/FunctionDelegate.h
-c000000004CF0529600000000000013CA
-t1290818198
-s5066
-i"Poco/Foundation.h"
-i"Poco/AbstractDelegate.h"
-
-N/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/libs/poco/include/Poco/Mutex.h
-c000000004CF052960000000000001A61
-t1290818198
-s6753
-i"Poco/Foundation.h"
-i"Poco/Exception.h"
-i"Poco/ScopedLock.h"
-i"Poco/Mutex_WIN32.h"
-i"Poco/Mutex_POSIX.h"
-
-N/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/libs/poco/include/Poco/Mutex_POSIX.h
-c000000004CF052960000000000000AC3
-t1290818198
-s2755
-i"Poco/Foundation.h"
-i"Poco/Exception.h"
-i<pthread.h>
-i<errno.h>
-
-N/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/libs/poco/include/Poco/Mutex_WIN32.h
-c000000004CF052960000000000000A07
-t1290818198
-s2567
-i"Poco/Foundation.h"
-i"Poco/Exception.h"
-i"Poco/UnWindows.h"
-
-N/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/libs/poco/include/Poco/NotificationStrategy.h
-c000000004CF052960000000000000A37
-t1290818198
-s2615
-i"Poco/Foundation.h"
-
-N/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/libs/poco/include/Poco/Platform.h
-c000000004CF052960000000000001A3A
-t1290818198
-s6714
-
-N/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/libs/poco/include/Poco/Platform_POSIX.h
-c000000004CF052960000000000000843
-t1290818198
-s2115
-
-N/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/libs/poco/include/Poco/Platform_VMS.h
-c000000004CF052960000000000000BAA
-t1290818198
-s2986
-
-N/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/libs/poco/include/Poco/Platform_WIN32.h
-c000000004CF052960000000000000D4D
-t1290818198
-s3405
-
-N/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/libs/poco/include/Poco/RefCountedObject.h
-c000000004CF052960000000000000B10
-t1290818198
-s2832
-i"Poco/Foundation.h"
-i"Poco/Mutex.h"
-
-N/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/libs/poco/include/Poco/Runnable.h
-c000000004CF052960000000000000861
-t1290818198
-s2145
-i"Poco/Foundation.h"
-
-N/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/libs/poco/include/Poco/ScopedLock.h
-c000000004CF0529600000000000008EB
-t1290818198
-s2283
-i"Poco/Foundation.h"
-
-N/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/libs/poco/include/Poco/SharedPtr.h
-c000000004CF0529600000000000021DE
-t1290818198
-s8670
-i"Poco/Foundation.h"
-i"Poco/Exception.h"
-i"Poco/Mutex.h"
-i<algorithm>
-
-N/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/libs/poco/include/Poco/SignalHandler.h
-c000000004CF0529600000000000011EB
-t1290818198
-s4587
-i"Poco/Foundation.h"
-i<vector>
-i<setjmp.h>
-
-N/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/libs/poco/include/Poco/SingletonHolder.h
-c000000004CF052960000000000000A64
-t1290818198
-s2660
-i"Poco/Foundation.h"
-i"Poco/Mutex.h"
-
-N/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/libs/poco/include/Poco/Thread.h
-c000000004CF052960000000000001C3A
-t1290818198
-s7226
-i"Poco/Foundation.h"
-i"Poco/Mutex.h"
-i"Poco/Thread_WIN32.h"
-i"Poco/Thread_POSIX.h"
-
-N/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/libs/poco/include/Poco/ThreadPool.h
-c000000004CF052960000000000001849
-t1290818198
-s6217
-i"Poco/Foundation.h"
-i"Poco/Thread.h"
-i"Poco/Mutex.h"
-i<vector>
-
-N/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/libs/poco/include/Poco/Thread_POSIX.h
-c000000004CF0529600000000000012A8
-t1290818198
-s4776
-i"Poco/Foundation.h"
-i"Poco/Runnable.h"
-i"Poco/SignalHandler.h"
-i"Poco/Event.h"
-i"Poco/RefCountedObject.h"
-i"Poco/AutoPtr.h"
-i<pthread.h>
-i<sys/select.h>
-i<errno.h>
-
-N/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/libs/poco/include/Poco/Thread_WIN32.h
-c000000004CF05296000000000000106C
-t1290818198
-s4204
-i"Poco/Foundation.h"
-i"Poco/Runnable.h"
-i"Poco/UnWindows.h"
-
-N/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/libs/poco/include/Poco/Timestamp.h
-c000000004CF0529600000000000019A7
-t1290818198
-s6567
-i"Poco/Foundation.h"
-i<ctime>
-
-N/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/libs/poco/include/Poco/Types.h
-c000000004CF052960000000000001910
-t1290818198
-s6416
-i"Poco/Foundation.h"
-
-N/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/libs/poco/include/Poco/UnWindows.h
-c000000004CF052960000000000000FD1
-t1290818198
-s4049
-i<windows.h>
-
-N/var/folders/Wd/Wd+V+rsCFoukrJzDRb130++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-bvljphpwmptdwbdzoomactvfalvn/Carbon.h.gch
-t2
-s0
-
-NopenFrameworks-Info.plist
-c000000004D07C4B30000000000000277
-t1292354739
-s631
-
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies314047886#314047886#0(110"[WARN]Warning: The Copy Files build phase contains this target's Info.plist file 'openFrameworks-Info.plist'.1(22@103"Warning: The Copy Files build phase contains this target's Info.plist file 'openFrameworks-Info.plist'.314047886#18446744073709551615#0#0(1@0"0(0#1#0"9007637348679712#0"0#
-
-CCompileC build/ofxAlphaMaskShader.build/Debug/ofxAlphaMaskShader.build/Objects-normal/i386/main.o "/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/apps/FlightPhase-ofxAddons/ofxAlphaMaskShader/src/main.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
-r0
-
-CCompileC build/ofxAlphaMaskShader.build/Debug/ofxAlphaMaskShader.build/Objects-normal/i386/ofxShader.o "/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/apps/FlightPhase-ofxAddons/ofxAlphaMaskShader/src/ofxShader/src/ofxShader.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
-r0
-
-CCompileC build/ofxAlphaMaskShader.build/Debug/ofxAlphaMaskShader.build/Objects-normal/i386/testApp.o "/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/apps/FlightPhase-ofxAddons/ofxAlphaMaskShader/src/testApp.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
-r0
-
-CLd "/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/apps/FlightPhase-ofxAddons/ofxAlphaMaskShader/bin//ShaderAlphaMaskDebug.app/Contents/MacOS/ShaderAlphaMaskDebug" normal i386
-r0
-
-CPBXCp bin/ShaderAlphaMaskDebug.app/Contents/Frameworks/GLUT.framework ../../../libs/glut/lib/osx/GLUT.framework
-s314047887.149984
-e314047887.318062
-r1
-xPBXCp
-xbin/ShaderAlphaMaskDebug.app/Contents/Frameworks/GLUT.framework
-x../../../libs/glut/lib/osx/GLUT.framework
-lSLF07#2@46"Copy ../../../libs/glut/lib/osx/GLUT.framework314047887#314047887#0(0"0(0#0#187"/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/apps/FlightPhase-ofxAddons/ofxAlphaMaskShader/../../../libs/glut/lib/osx/GLUT.framework8604967360#690"    cd "/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/apps/FlightPhase-ofxAddons/ofxAlphaMaskShader"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/apps/FlightPhase-ofxAddons/ofxAlphaMaskShader/../../../libs/glut/lib/osx/GLUT.framework" "/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/apps/FlightPhase-ofxAddons/ofxAlphaMaskShader/bin/ShaderAlphaMaskDebug.app/Contents/Frameworks"0#
-
-CPBXCp bin/ShaderAlphaMaskDebug.app/Contents/Resources/openFrameworks-Info.plist openFrameworks-Info.plist
-s314047887.318162
-e314047887.322362
-r1
-xPBXCp
-xbin/ShaderAlphaMaskDebug.app/Contents/Resources/openFrameworks-Info.plist
-xopenFrameworks-Info.plist
-lSLF07#2@30"Copy openFrameworks-Info.plist314047887#314047887#0(0"0(0#0#171"/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/apps/FlightPhase-ofxAddons/ofxAlphaMaskShader/openFrameworks-Info.plist8605225152#673"    cd "/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/apps/FlightPhase-ofxAddons/ofxAlphaMaskShader"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/apps/FlightPhase-ofxAddons/ofxAlphaMaskShader/openFrameworks-Info.plist" "/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/apps/FlightPhase-ofxAddons/ofxAlphaMaskShader/bin/ShaderAlphaMaskDebug.app/Contents/Resources"0#
-
-CPhaseScriptExecution "Run Script" "/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/apps/FlightPhase-ofxAddons/ofxAlphaMaskShader/build/ofxAlphaMaskShader.build/Debug/ofxAlphaMaskShader.build/Script-E4B6FFFD0C3F9AB9008CF71C.sh"
-s314047887.072482
-e314047887.149841
-r0
-xPhaseScriptExecution
-xRun Script
-x/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/apps/FlightPhase-ofxAddons/ofxAlphaMaskShader/build/ofxAlphaMaskShader.build/Debug/ofxAlphaMaskShader.build/Script-E4B6FFFD0C3F9AB9008CF71C.sh
-ocp: /Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/apps/FlightPhase-ofxAddons/ofxAlphaMaskShader/bin//ShaderAlphaMaskDebug.app/Contents/MacOS/libfmodex.dylib: No such file or directory
-oinstall_name_tool: can't open file: /Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/apps/FlightPhase-ofxAddons/ofxAlphaMaskShader/bin//ShaderAlphaMaskDebug.app/Contents/MacOS/ShaderAlphaMaskDebug (No such file or directory)
-lSLF07#2@36"Run custom shell script 'Run Script'314047887#314047887#0(514"cp: /Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/apps/FlightPhase-ofxAddons/ofxAlphaMaskShader/bin//ShaderAlphaMaskDebug.app/Contents/MacOS/libfmodex.dylib: No such file or directoryinstall_name_tool: can't open file: /Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/apps/FlightPhase-ofxAddons/ofxAlphaMaskShader/bin//ShaderAlphaMaskDebug.app/Contents/MacOS/ShaderAlphaMaskDebug (No such file or directory)2(4@237"Cp: /Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/apps/FlightPhase-ofxAddons/ofxAlphaMaskShader/bin//ShaderAlphaMaskDebug.app/Contents/MacOS/libfmodex.dylib: No such file or directory314047887#0#238#0(1@0"0(13@276"install_name_tool: can't open file: /Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/apps/FlightPhase-ofxAddons/ofxAlphaMaskShader/bin//ShaderAlphaMaskDebug.app/Contents/MacOS/ShaderAlphaMaskDebug (No such file or directory)314047887#238#276#0(1@0"0(0#0#0"8605410688#25302"    cd "/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/apps/FlightPhase-ofxAddons/ofxAlphaMaskShader"    setenv ACTION build    setenv ALTERNATE_GROUP staff    setenv ALTERNATE_MODE u+w,go-w,a+rX    setenv ALTERNATE_OWNER focus    setenv ALWAYS_SEARCH_USER_PATHS YES    setenv APPLE_INTERNAL_DEVELOPER_DIR /AppleInternal/Developer    setenv APPLE_INTERNAL_DIR /AppleInternal    setenv APPLE_INTERNAL_DOCUMENTATION_DIR /AppleInternal/Documentation    setenv APPLE_INTERNAL_LIBRARY_DIR /AppleInternal/Library    setenv APPLE_INTERNAL_TOOLS /AppleInternal/Developer/Tools    setenv APPLY_RULES_IN_COPY_FILES NO    setenv ARCHS i386    setenv ARCHS_STANDARD_32_64_BIT "x86_64 i386 ppc"    setenv ARCHS_STANDARD_32_BIT "i386 ppc"    setenv ARCHS_STANDARD_64_BIT x86_64    setenv BUILD_COMPONENTS "headers build"    setenv BUILD_DIR "/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/apps/FlightPhase-ofxAddons/ofxAlphaMaskShader/build"    setenv BUILD_ROOT "/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/apps/FlightPhase-ofxAddons/ofxAlphaMaskShader/build"    setenv BUILD_STYLE Debug    setenv BUILD_VARIANTS normal    setenv BUILT_PRODUCTS_DIR "/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/apps/FlightPhase-ofxAddons/ofxAlphaMaskShader/bin/"    setenv CACHE_ROOT /var/folders/Wd/Wd+V+rsCFoukrJzDRb130++++TI/-Caches-/com.apple.Xcode.501    setenv CCHROOT /var/folders/Wd/Wd+V+rsCFoukrJzDRb130++++TI/-Caches-/com.apple.Xcode.501    setenv CHMOD /bin/chmod    setenv CHOWN /usr/sbin/chown    setenv CLASS_FILE_DIR "/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/apps/FlightPhase-ofxAddons/ofxAlphaMaskShader/build/ofxAlphaMaskShader.build/Debug/ofxAlphaMaskShader.build/JavaClasses"    setenv CLEAN_PRECOMPS YES    setenv CLONE_HEADERS NO    setenv CODESIGNING_FOLDER_PATH "/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/apps/FlightPhase-ofxAddons/ofxAlphaMaskShader/bin//ShaderAlphaMaskDebug.app"    setenv CODE_SIGNING_ALLOWED YES    setenv COMMAND_MODE legacy    setenv COMPOSITE_SDK_DIRS /var/folders/Wd/Wd+V+rsCFoukrJzDRb130++++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs    setenv CONFIGURATION Debug    setenv CONFIGURATION_BUILD_DIR "/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/apps/FlightPhase-ofxAddons/ofxAlphaMaskShader/bin/"    setenv CONFIGURATION_TEMP_DIR "/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/apps/FlightPhase-ofxAddons/ofxAlphaMaskShader/build/ofxAlphaMaskShader.build/Debug"    setenv CONTENTS_FOLDER_PATH ShaderAlphaMaskDebug.app/Contents    setenv COPYING_PRESERVES_HFS_DATA NO    setenv COPY_PHASE_STRIP NO    setenv COPY_RESOURCES_FROM_STATIC_FRAMEWORKS YES    setenv CP /bin/cp    setenv CURRENT_ARCH i386    setenv CURRENT_VARIANT normal    setenv DEAD_CODE_STRIPPING YES    setenv DEBUGGING_SYMBOLS YES    setenv DEBUG_INFORMATION_FORMAT dwarf    setenv DEPLOYMENT_LOCATION NO    setenv DEPLOYMENT_POSTPROCESSING NO    setenv DERIVED_FILES_DIR "/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/apps/FlightPhase-ofxAddons/ofxAlphaMaskShader/build/ofxAlphaMaskShader.build/Debug/ofxAlphaMaskShader.build/DerivedSources"    setenv DERIVED_FILE_DIR "/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/apps/FlightPhase-ofxAddons/ofxAlphaMaskShader/build/ofxAlphaMaskShader.build/Debug/ofxAlphaMaskShader.build/DerivedSources"    setenv DERIVED_SOURCES_DIR "/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/apps/FlightPhase-ofxAddons/ofxAlphaMaskShader/build/ofxAlphaMaskShader.build/Debug/ofxAlphaMaskShader.build/DerivedSources"    setenv DEVELOPER_APPLICATIONS_DIR /Developer/Applications    setenv DEVELOPER_BIN_DIR /Developer/usr/bin    setenv DEVELOPER_DIR /Developer    setenv DEVELOPER_FRAMEWORKS_DIR /Developer/Library/Frameworks    setenv DEVELOPER_FRAMEWORKS_DIR_QUOTED "\"/Developer/Library/Frameworks\""    setenv DEVELOPER_LIBRARY_DIR /Developer/Library    setenv DEVELOPER_SDK_DIR /Developer/SDKs    setenv DEVELOPER_TOOLS_DIR /Developer/Tools    setenv DEVELOPER_USR_DIR /Developer/usr    setenv DEVELOPMENT_LANGUAGE English    setenv DOCUMENTATION_FOLDER_PATH /Documentation    setenv DO_HEADER_SCANNING_IN_JAM NO    setenv DSTROOT /tmp/ofxAlphaMaskShader.dst    setenv DWARF_DSYM_FILE_NAME ShaderAlphaMaskDebug.app.dSYM    setenv DWARF_DSYM_FOLDER_PATH "/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/apps/FlightPhase-ofxAddons/ofxAlphaMaskShader/bin/"    setenv ENABLE_HEADER_DEPENDENCIES YES    setenv ENABLE_OPENMP_SUPPORT NO    setenv EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS ".svn CVS"    setenv EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES "*.nib *.lproj *.framework *.gch (*) CVS .svn *.xcodeproj *.xcode *.pbproj *.pbxproj"    setenv EXECUTABLES_FOLDER_PATH ShaderAlphaMaskDebug.app/Contents/Executables    setenv EXECUTABLE_FOLDER_PATH ShaderAlphaMaskDebug.app/Contents/MacOS    setenv EXECUTABLE_NAME ShaderAlphaMaskDebug    setenv EXECUTABLE_PATH ShaderAlphaMaskDebug.app/Contents/MacOS/ShaderAlphaMaskDebug    setenv FILE_LIST "/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/apps/FlightPhase-ofxAddons/ofxAlphaMaskShader/build/ofxAlphaMaskShader.build/Debug/ofxAlphaMaskShader.build/Objects/LinkFileList"    setenv FIXED_FILES_DIR "/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/apps/FlightPhase-ofxAddons/ofxAlphaMaskShader/build/ofxAlphaMaskShader.build/Debug/ofxAlphaMaskShader.build/FixedFiles"    setenv FRAMEWORKS_FOLDER_PATH ShaderAlphaMaskDebug.app/Contents/Frameworks    setenv FRAMEWORK_FLAG_PREFIX -framework    setenv FRAMEWORK_SEARCH_PATHS "\"/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/apps/FlightPhase-ofxAddons/ofxAlphaMaskShader/bin/\"  \"/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/apps/FlightPhase-ofxAddons/ofxAlphaMaskShader/../../../libs/glut/lib/osx\""    setenv FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 "\"/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/apps/FlightPhase-ofxAddons/ofxAlphaMaskShader/../../../libs/glut/lib/osx\""    setenv FRAMEWORK_VERSION A    setenv FULL_PRODUCT_NAME ShaderAlphaMaskDebug.app    setenv GCC3_VERSION 3.3    setenv GCC_AUTO_VECTORIZATION YES    setenv GCC_DYNAMIC_NO_PIC NO    setenv GCC_ENABLE_FIX_AND_CONTINUE YES    setenv GCC_ENABLE_SSE3_EXTENSIONS YES    setenv GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS YES    setenv GCC_GENERATE_DEBUGGING_SYMBOLS YES    setenv GCC_INLINES_ARE_PRIVATE_EXTERN NO    setenv GCC_MODEL_TUNING G4    setenv GCC_OPTIMIZATION_LEVEL 0    setenv GCC_PFE_FILE_C_DIALECTS "c objective-c c++ objective-c++"    setenv GCC_PRECOMPILE_PREFIX_HEADER YES    setenv GCC_PREFIX_HEADER /System/Library/Frameworks/Carbon.framework/Headers/Carbon.h    setenv GCC_SYMBOLS_PRIVATE_EXTERN NO    setenv GCC_TREAT_WARNINGS_AS_ERRORS NO    setenv GCC_VERSION 4.2    setenv GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS NO    setenv GCC_WARN_ABOUT_INVALID_OFFSETOF_MACRO NO    setenv GCC_WARN_ALLOW_INCOMPLETE_PROTOCOL NO    setenv GCC_WARN_UNINITIALIZED_AUTOS NO    setenv GCC_WARN_UNUSED_VALUE NO    setenv GCC_WARN_UNUSED_VARIABLE NO    setenv GENERATE_MASTER_OBJECT_FILE NO    setenv GENERATE_PKGINFO_FILE YES    setenv GENERATE_PROFILING_CODE NO    setenv GID 20    setenv GROUP staff    setenv HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT YES    setenv HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES YES    setenv HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS YES    setenv HEADERMAP_INCLUDES_PROJECT_HEADERS YES    setenv HEADER_SEARCH_PATHS "\"/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/apps/FlightPhase-ofxAddons/ofxAlphaMaskShader/bin//include\" ../../../libs/openFrameworks/** ../../../libs/freetype/include/ ../../../libs/freetype/include/freetype2 ../../../libs/poco/include ../../../addons/"    setenv ICONV /usr/bin/iconv    setenv INFOPLIST_EXPAND_BUILD_SETTINGS YES    setenv INFOPLIST_FILE openFrameworks-Info.plist    setenv INFOPLIST_OUTPUT_FORMAT same-as-input    setenv INFOPLIST_PATH ShaderAlphaMaskDebug.app/Contents/Info.plist    setenv INFOPLIST_PREPROCESS NO    setenv INFOSTRINGS_PATH /InfoPlist.strings    setenv INSTALL_DIR /tmp/ofxAlphaMaskShader.dst/Users/focus/Applications    setenv INSTALL_GROUP staff    setenv INSTALL_MODE_FLAG u+w,go-w,a+rX    setenv INSTALL_OWNER focus    setenv INSTALL_PATH /Users/focus/Applications    setenv INSTALL_ROOT /tmp/ofxAlphaMaskShader.dst    setenv JAVAC_DEFAULT_FLAGS "-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    setenv JAVA_APP_STUB /System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    setenv JAVA_ARCHIVE_CLASSES YES    setenv JAVA_ARCHIVE_TYPE JAR    setenv JAVA_COMPILER /usr/bin/javac    setenv JAVA_FOLDER_PATH ShaderAlphaMaskDebug.app/Contents/Resources/Java    setenv JAVA_FRAMEWORK_RESOURCES_DIRS Resources    setenv JAVA_JAR_FLAGS cv    setenv JAVA_SOURCE_SUBDIR .    setenv JAVA_USE_DEPENDENCIES YES    setenv JAVA_ZIP_FLAGS -urg    setenv JIKES_DEFAULT_FLAGS "+E +OLDCSO"    setenv KEEP_PRIVATE_EXTERNS NO    setenv LD_GENERATE_MAP_FILE NO    setenv LD_MAP_FILE_PATH "/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/apps/FlightPhase-ofxAddons/ofxAlphaMaskShader/build/ofxAlphaMaskShader.build/Debug/ofxAlphaMaskShader.build/ShaderAlphaMaskDebug-LinkMap-normal-i386.txt"    setenv LD_OPENMP_FLAGS -fopenmp    setenv LEX /Developer/usr/bin/lex    setenv LIBRARY_FLAG_NOSPACE YES    setenv LIBRARY_FLAG_PREFIX -l    setenv LIBRARY_SEARCH_PATHS "\"/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/apps/FlightPhase-ofxAddons/ofxAlphaMaskShader/bin/\"  \"/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/apps/FlightPhase-ofxAddons/ofxAlphaMaskShader/../../../libs/freeimage/lib/osx\" \"/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/apps/FlightPhase-ofxAddons/ofxAlphaMaskShader/../../../libs/FreeImage/lib/osx\"  \"/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/apps/FlightPhase-ofxAddons/ofxAlphaMaskShader/../../../libs/GLee/lib/osx\" \"/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/apps/FlightPhase-ofxAddons/ofxAlphaMaskShader/../../../libs/poco/lib/osx\" \"/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/apps/FlightPhase-ofxAddons/ofxAlphaMaskShader/../../../libs/rtAudio/lib/osx\"        \"/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/apps/FlightPhase-ofxAddons/ofxAlphaMaskShader/../../../libs/fmodex/lib/osx\" \"/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/apps/FlightPhase-ofxAddons/ofxAlphaMaskShader/../../../libs/freetype/lib/osx\" \"/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/apps/FlightPhase-ofxAddons/ofxAlphaMaskShader/../../../libs/FreeImage/lib/osx\""    setenv LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1 "\"/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/apps/FlightPhase-ofxAddons/ofxAlphaMaskShader/../../../libs/freeimage/lib/osx\""    setenv LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_14 "\"/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/apps/FlightPhase-ofxAddons/ofxAlphaMaskShader/../../../libs/fmodex/lib/osx\""    setenv LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_15 "\"/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/apps/FlightPhase-ofxAddons/ofxAlphaMaskShader/../../../libs/freetype/lib/osx\""    setenv LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_2 "\"/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/apps/FlightPhase-ofxAddons/ofxAlphaMaskShader/../../../libs/FreeImage/lib/osx\""    setenv LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_4 "\"/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/apps/FlightPhase-ofxAddons/ofxAlphaMaskShader/../../../libs/GLee/lib/osx\""    setenv LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_5 "\"/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/apps/FlightPhase-ofxAddons/ofxAlphaMaskShader/../../../libs/poco/lib/osx\""    setenv LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_6 "\"/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/apps/FlightPhase-ofxAddons/ofxAlphaMaskShader/../../../libs/rtAudio/lib/osx\""    setenv LINKER_DISPLAYS_MANGLED_NAMES NO    setenv LINK_FILE_LIST_normal_i386 "/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/apps/FlightPhase-ofxAddons/ofxAlphaMaskShader/build/ofxAlphaMaskShader.build/Debug/ofxAlphaMaskShader.build/Objects-normal/i386/ShaderAlphaMaskDebug.LinkFileList"    setenv LINK_WITH_STANDARD_LIBRARIES YES    setenv LOCAL_ADMIN_APPS_DIR /Applications/Utilities    setenv LOCAL_APPS_DIR /Applications    setenv LOCAL_DEVELOPER_DIR /Library/Developer    setenv LOCAL_LIBRARY_DIR /Library    setenv MACH_O_TYPE mh_execute    setenv MAC_OS_X_VERSION_ACTUAL 1065    setenv MAC_OS_X_VERSION_MAJOR 1060    setenv MAC_OS_X_VERSION_MINOR 0605    setenv NATIVE_ARCH i386    setenv NATIVE_ARCH_32_BIT i386    setenv NATIVE_ARCH_64_BIT x86_64    setenv NATIVE_ARCH_ACTUAL x86_64    setenv NO_COMMON YES    setenv OBJECT_FILE_DIR "/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/apps/FlightPhase-ofxAddons/ofxAlphaMaskShader/build/ofxAlphaMaskShader.build/Debug/ofxAlphaMaskShader.build/Objects"    setenv OBJECT_FILE_DIR_normal "/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/apps/FlightPhase-ofxAddons/ofxAlphaMaskShader/build/ofxAlphaMaskShader.build/Debug/ofxAlphaMaskShader.build/Objects-normal"    setenv OBJROOT "/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/apps/FlightPhase-ofxAddons/ofxAlphaMaskShader/build"    setenv ONLY_ACTIVE_ARCH NO    setenv OPTIMIZATION_LEVEL 0    setenv OS MACOS    setenv OSAC /usr/bin/osacompile    setenv OTHER_CPLUSPLUSFLAGS "-D__MACOSX_CORE__ -lpthread"    setenv PACKAGE_TYPE com.apple.package-type.wrapper.application    setenv PASCAL_STRINGS YES    setenv PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES "/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Developer/Headers /Developer/SDKs /Developer/Platforms"    setenv PBDEVELOPMENTPLIST_PATH ShaderAlphaMaskDebug.app/Contents/pbdevelopment.plist    setenv PFE_FILE_C_DIALECTS c++    setenv PKGINFO_FILE_PATH "/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/apps/FlightPhase-ofxAddons/ofxAlphaMaskShader/build/ofxAlphaMaskShader.build/Debug/ofxAlphaMaskShader.build/PkgInfo"    setenv PKGINFO_PATH ShaderAlphaMaskDebug.app/Contents/PkgInfo    setenv PLATFORM_DEVELOPER_APPLICATIONS_DIR /Developer/Applications    setenv PLATFORM_DEVELOPER_BIN_DIR /Developer/usr/bin    setenv PLATFORM_DEVELOPER_LIBRARY_DIR /Developer/Library    setenv PLATFORM_DEVELOPER_SDK_DIR /Developer/SDKs    setenv PLATFORM_DEVELOPER_TOOLS_DIR /Developer/Tools    setenv PLATFORM_DEVELOPER_USR_DIR /Developer/usr    setenv PLATFORM_NAME macosx    setenv PLIST_FILE_OUTPUT_FORMAT same-as-input    setenv PLUGINS_FOLDER_PATH ShaderAlphaMaskDebug.app/Contents/PlugIns    setenv PREBINDING NO    setenv PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR YES    setenv PRECOMP_DESTINATION_DIR "/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/apps/FlightPhase-ofxAddons/ofxAlphaMaskShader/build/ofxAlphaMaskShader.build/Debug/ofxAlphaMaskShader.build/PrefixHeaders"    setenv PRESERVE_DEAD_CODE_INITS_AND_TERMS NO    setenv PRIVATE_HEADERS_FOLDER_PATH ShaderAlphaMaskDebug.app/Contents/PrivateHeaders    setenv PRODUCT_NAME ShaderAlphaMaskDebug    setenv PRODUCT_SETTINGS_PATH "/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/apps/FlightPhase-ofxAddons/ofxAlphaMaskShader/openFrameworks-Info.plist"    setenv PRODUCT_TYPE com.apple.product-type.application    setenv PROFILING_CODE NO    setenv PROJECT ofxAlphaMaskShader    setenv PROJECT_DERIVED_FILE_DIR "/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/apps/FlightPhase-ofxAddons/ofxAlphaMaskShader/build/ofxAlphaMaskShader.build/DerivedSources"    setenv PROJECT_DIR "/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/apps/FlightPhase-ofxAddons/ofxAlphaMaskShader"    setenv PROJECT_FILE_PATH "/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/apps/FlightPhase-ofxAddons/ofxAlphaMaskShader/ofxAlphaMaskShader.xcodeproj"    setenv PROJECT_NAME ofxAlphaMaskShader    setenv PROJECT_TEMP_DIR "/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/apps/FlightPhase-ofxAddons/ofxAlphaMaskShader/build/ofxAlphaMaskShader.build"    setenv PUBLIC_HEADERS_FOLDER_PATH ShaderAlphaMaskDebug.app/Contents/Headers    setenv RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS YES    setenv REMOVE_CVS_FROM_RESOURCES YES    setenv REMOVE_SVN_FROM_RESOURCES YES    setenv REZ_COLLECTOR_DIR "/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/apps/FlightPhase-ofxAddons/ofxAlphaMaskShader/build/ofxAlphaMaskShader.build/Debug/ofxAlphaMaskShader.build/ResourceManagerResources"    setenv REZ_OBJECTS_DIR "/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/apps/FlightPhase-ofxAddons/ofxAlphaMaskShader/build/ofxAlphaMaskShader.build/Debug/ofxAlphaMaskShader.build/ResourceManagerResources/Objects"    setenv REZ_SEARCH_PATHS "\"/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/apps/FlightPhase-ofxAddons/ofxAlphaMaskShader/bin/\" "    setenv RUN_CLANG_STATIC_ANALYZER NO    setenv SCAN_ALL_SOURCE_FILES_FOR_INCLUDES NO    setenv SCRIPTS_FOLDER_PATH ShaderAlphaMaskDebug.app/Contents/Resources/Scripts    setenv SCRIPT_INPUT_FILE_COUNT 0    setenv SCRIPT_OUTPUT_FILE_COUNT 0    setenv SDKROOT     setenv SED /usr/bin/sed    setenv SEPARATE_STRIP NO    setenv SEPARATE_SYMBOL_EDIT NO    setenv SET_DIR_MODE_OWNER_GROUP YES    setenv SET_FILE_MODE_OWNER_GROUP NO    setenv SHARED_DERIVED_FILE_DIR "/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/apps/FlightPhase-ofxAddons/ofxAlphaMaskShader/bin//DerivedSources"    setenv SHARED_FRAMEWORKS_FOLDER_PATH ShaderAlphaMaskDebug.app/Contents/SharedFrameworks    setenv SHARED_PRECOMPS_DIR /var/folders/Wd/Wd+V+rsCFoukrJzDRb130++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders    setenv SHARED_SUPPORT_FOLDER_PATH ShaderAlphaMaskDebug.app/Contents/SharedSupport    setenv SKIP_INSTALL NO    setenv SOURCE_ROOT "/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/apps/FlightPhase-ofxAddons/ofxAlphaMaskShader"    setenv SRCROOT "/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/apps/FlightPhase-ofxAddons/ofxAlphaMaskShader"    setenv STANDARD_C_PLUS_PLUS_LIBRARY_TYPE dynamic    setenv STRINGS_FILE_OUTPUT_ENCODING UTF-16    setenv STRIP_INSTALLED_PRODUCT YES    setenv STRIP_STYLE all    setenv SYMBOL_REPOSITORY_DIR "/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/apps/FlightPhase-ofxAddons/ofxAlphaMaskShader/build/ofxAlphaMaskShader.build/Debug/ofxAlphaMaskShader.build/SymbolRepositories"    setenv SYMROOT "/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/apps/FlightPhase-ofxAddons/ofxAlphaMaskShader/build"    setenv SYSTEM_ADMIN_APPS_DIR /Applications/Utilities    setenv SYSTEM_APPS_DIR /Applications    setenv SYSTEM_CORE_SERVICES_DIR /System/Library/CoreServices    setenv SYSTEM_DEMOS_DIR /Applications/Extras    setenv SYSTEM_DEVELOPER_APPS_DIR /Developer/Applications    setenv SYSTEM_DEVELOPER_BIN_DIR /Developer/usr/bin    setenv SYSTEM_DEVELOPER_DEMOS_DIR "/Developer/Applications/Utilities/Built Examples"    setenv SYSTEM_DEVELOPER_DIR /Developer    setenv SYSTEM_DEVELOPER_DOC_DIR "/Developer/ADC Reference Library"    setenv SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR "/Developer/Applications/Graphics Tools"    setenv SYSTEM_DEVELOPER_JAVA_TOOLS_DIR "/Developer/Applications/Java Tools"    setenv SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR "/Developer/Applications/Performance Tools"    setenv SYSTEM_DEVELOPER_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes"    setenv SYSTEM_DEVELOPER_TOOLS /Developer/Tools    setenv SYSTEM_DEVELOPER_TOOLS_DOC_DIR "/Developer/ADC Reference Library/documentation/DeveloperTools"    setenv SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes/DeveloperTools"    setenv SYSTEM_DEVELOPER_USR_DIR /Developer/usr    setenv SYSTEM_DEVELOPER_UTILITIES_DIR /Developer/Applications/Utilities    setenv SYSTEM_DOCUMENTATION_DIR /Library/Documentation    setenv SYSTEM_LIBRARY_DIR /System/Library    setenv TARGETNAME ofxAlphaMaskShader    setenv TARGET_BUILD_DIR "/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/apps/FlightPhase-ofxAddons/ofxAlphaMaskShader/bin/"    setenv TARGET_NAME ofxAlphaMaskShader    setenv TARGET_TEMP_DIR "/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/apps/FlightPhase-ofxAddons/ofxAlphaMaskShader/build/ofxAlphaMaskShader.build/Debug/ofxAlphaMaskShader.build"    setenv TEMP_DIR "/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/apps/FlightPhase-ofxAddons/ofxAlphaMaskShader/build/ofxAlphaMaskShader.build/Debug/ofxAlphaMaskShader.build"    setenv TEMP_FILES_DIR "/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/apps/FlightPhase-ofxAddons/ofxAlphaMaskShader/build/ofxAlphaMaskShader.build/Debug/ofxAlphaMaskShader.build"    setenv TEMP_FILE_DIR "/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/apps/FlightPhase-ofxAddons/ofxAlphaMaskShader/build/ofxAlphaMaskShader.build/Debug/ofxAlphaMaskShader.build"    setenv TEMP_ROOT "/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/apps/FlightPhase-ofxAddons/ofxAlphaMaskShader/build"    setenv UID 501    setenv UNLOCALIZED_RESOURCES_FOLDER_PATH ShaderAlphaMaskDebug.app/Contents/Resources    setenv UNSTRIPPED_PRODUCT NO    setenv USER focus    setenv USER_APPS_DIR /Users/focus/Applications    setenv USER_LIBRARY_DIR /Users/focus/Library    setenv USE_DYNAMIC_NO_PIC YES    setenv USE_HEADERMAP YES    setenv USE_HEADER_SYMLINKS NO    setenv VALIDATE_PRODUCT NO    setenv VALID_ARCHS "i386 ppc ppc64 ppc7400 ppc970 x86_64"    setenv VERBOSE_PBXCP NO    setenv VERSIONPLIST_PATH ShaderAlphaMaskDebug.app/Contents/version.plist    setenv VERSION_INFO_BUILDER focus    setenv VERSION_INFO_FILE ShaderAlphaMaskDebug_vers.c    setenv VERSION_INFO_STRING "\"@(#)PROGRAM:ShaderAlphaMaskDebug  PROJECT:ofxAlphaMaskShader-\""    setenv WRAPPER_EXTENSION app    setenv WRAPPER_NAME ShaderAlphaMaskDebug.app    setenv WRAPPER_SUFFIX .app    setenv XCODE_APP_SUPPORT_DIR /Developer/Library/Xcode    setenv XCODE_VERSION_ACTUAL 0323    setenv XCODE_VERSION_MAJOR 0300    setenv XCODE_VERSION_MINOR 0320    setenv YACC /Developer/usr/bin/yacc    setenv ZERO_LINK NO    /bin/sh -c "\"/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/apps/FlightPhase-ofxAddons/ofxAlphaMaskShader/build/ofxAlphaMaskShader.build/Debug/ofxAlphaMaskShader.build/Script-E4B6FFFD0C3F9AB9008CF71C.sh\""1#
-
-CProcessInfoPlistFile "/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/apps/FlightPhase-ofxAddons/ofxAlphaMaskShader/bin//ShaderAlphaMaskDebug.app/Contents/Info.plist" openFrameworks-Info.plist
-s314047886.944929
-e314047886.975921
-r1
-xProcessInfoPlistFile
-x/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/apps/FlightPhase-ofxAddons/ofxAlphaMaskShader/bin//ShaderAlphaMaskDebug.app/Contents/Info.plist
-xopenFrameworks-Info.plist
-lSLF07#2@33"Process openFrameworks-Info.plist314047886#314047886#0(0"0(0#0#171"/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/apps/FlightPhase-ofxAddons/ofxAlphaMaskShader/openFrameworks-Info.plist7381170487104070656#656"    cd "/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/apps/FlightPhase-ofxAddons/ofxAlphaMaskShader"    builtin-infoPlistUtility openFrameworks-Info.plist -genpkginfo "/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/apps/FlightPhase-ofxAddons/ofxAlphaMaskShader/bin//ShaderAlphaMaskDebug.app/Contents/PkgInfo" -expandbuildsettings -platform macosx -o "/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/apps/FlightPhase-ofxAddons/ofxAlphaMaskShader/bin//ShaderAlphaMaskDebug.app/Contents/Info.plist"0#
-
-CProcessPCH++ /var/folders/Wd/Wd+V+rsCFoukrJzDRb130++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-bvljphpwmptdwbdzoomactvfalvn/Carbon.h.gch /System/Library/Frameworks/Carbon.framework/Headers/Carbon.h normal i386 c++ com.apple.compilers.gcc.4_2
-s314047886.976265
-e314047887.071969
-r0
-xProcessPCH++
-x/var/folders/Wd/Wd+V+rsCFoukrJzDRb130++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-bvljphpwmptdwbdzoomactvfalvn/Carbon.h.gch
-x/System/Library/Frameworks/Carbon.framework/Headers/Carbon.h
-xnormal
-xi386
-xc++
-xcom.apple.compilers.gcc.4_2
-oi686-apple-darwin10-gcc-4.2.1: /System/Library/Frameworks/Carbon.framework/Headers/Carbon.h: No such file or directory
-lSLF07#2@71"Precompile /System/Library/Frameworks/Carbon.framework/Headers/Carbon.h314047886#314047887#0(178"i686-apple-darwin10-gcc-4.2.1: /System/Library/Frameworks/Carbon.framework/Headers/Carbon.h: No such file or directoryCommand /Developer/usr/bin/gcc-4.2 failed with exit code 11(4@58"Command /Developer/usr/bin/gcc-4.2 failed with exit code 1314047887#18446744073709551615#0#0(1@0"0(0#0#60"/System/Library/Frameworks/Carbon.framework/Headers/Carbon.h8604869600#2283"    cd "/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/apps/FlightPhase-ofxAddons/ofxAlphaMaskShader"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++-header -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mfix-and-continue -ftree-vectorize -msse3 -mssse3 -Wno-deprecated-declarations -Wno-invalid-offsetof -gdwarf-2 "-I/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/apps/FlightPhase-ofxAddons/ofxAlphaMaskShader/build/ofxAlphaMaskShader.build/Debug/ofxAlphaMaskShader.build/ShaderAlphaMaskDebug.hmap" "-F/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/apps/FlightPhase-ofxAddons/ofxAlphaMaskShader/bin" "-F/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/apps/FlightPhase-ofxAddons/ofxAlphaMaskShader/../../../libs/glut/lib/osx" "-I/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/apps/FlightPhase-ofxAddons/ofxAlphaMaskShader/bin/include" -I../../../libs/openFrameworks -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/poco/include -I../../../addons "-I/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/apps/FlightPhase-ofxAddons/ofxAlphaMaskShader/build/ofxAlphaMaskShader.build/Debug/ofxAlphaMaskShader.build/DerivedSources/i386" "-I/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/apps/FlightPhase-ofxAddons/ofxAlphaMaskShader/build/ofxAlphaMaskShader.build/Debug/ofxAlphaMaskShader.build/DerivedSources" -D__MACOSX_CORE__ -lpthread -c /System/Library/Frameworks/Carbon.framework/Headers/Carbon.h -o /var/folders/Wd/Wd+V+rsCFoukrJzDRb130++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-bvljphpwmptdwbdzoomactvfalvn/Carbon.h.gch1#
-
-CTouch "/Users/focus/Documents/XCode Projects/openFrameworksSketches/openframeworks-gitclone/openFrameworks/apps/FlightPhase-ofxAddons/ofxAlphaMaskShader/bin//ShaderAlphaMaskDebug.app"
-r0
-
