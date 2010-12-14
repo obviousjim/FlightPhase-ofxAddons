@@ -10,8 +10,6 @@
 		A60029AB117A64FB00F0A720 /* handle_left.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = A60029A9117A64F400F0A720 /* handle_left.png */; };
 		A60029AC117A64FB00F0A720 /* handle_right.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = A60029AA117A64F400F0A720 /* handle_right.png */; };
 		A60029D8117A676B00F0A720 /* loadyourown.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = A60029D7117A676A00F0A720 /* loadyourown.png */; };
-		A65B7F0C11CDAF69006D9C53 /* ofxSlitScan.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A65B7F0A11CDAF69006D9C53 /* ofxSlitScan.cpp */; };
-		A65B7F1211CDB00F006D9C53 /* ofxFileDialog.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A65B7F1011CDB00F006D9C53 /* ofxFileDialog.cpp */; };
 		E45BE0AA0E8CC67C009D7055 /* GLee.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E45BE0A90E8CC67C009D7055 /* GLee.a */; };
 		E45BE2E40E8CC69C009D7055 /* rtAudio.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E45BE2E30E8CC69C009D7055 /* rtAudio.a */; };
 		E45BE97B0E8CC7DD009D7055 /* AGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E45BE9710E8CC7DD009D7055 /* AGL.framework */; };
@@ -56,6 +54,8 @@
 		E7C73A99116D876E007B4A3E /* soft_noise.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = E7C73A6E116D873B007B4A3E /* soft_noise.png */; };
 		E7C73A9A116D876E007B4A3E /* up_to_down.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = E7C73A6F116D873B007B4A3E /* up_to_down.png */; };
 		E7C73A9B116D876E007B4A3E /* video_delay.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = E7C73A70116D873B007B4A3E /* video_delay.png */; };
+		E7E5E49E12B800A20041B0F0 /* ofxFileDialog.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E7E5E49912B800A20041B0F0 /* ofxFileDialog.cpp */; };
+		E7E5E49F12B800A20041B0F0 /* ofxSlitScan.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E7E5E49C12B800A20041B0F0 /* ofxSlitScan.cpp */; };
 		E7FC335F10F8EABF00D3A183 /* ofxDirList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E7FC335D10F8EABF00D3A183 /* ofxDirList.cpp */; };
 		E7FC336A10F8EAE200D3A183 /* tinyxml.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E7FC336310F8EAE200D3A183 /* tinyxml.cpp */; };
 		E7FC336B10F8EAE200D3A183 /* tinyxmlerror.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E7FC336510F8EAE200D3A183 /* tinyxmlerror.cpp */; };
@@ -130,10 +130,6 @@
 		A60029A9117A64F400F0A720 /* handle_left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = handle_left.png; sourceTree = "<group>"; };
 		A60029AA117A64F400F0A720 /* handle_right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = handle_right.png; sourceTree = "<group>"; };
 		A60029D7117A676A00F0A720 /* loadyourown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loadyourown.png; sourceTree = "<group>"; };
-		A65B7F0A11CDAF69006D9C53 /* ofxSlitScan.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofxSlitScan.cpp; sourceTree = "<group>"; };
-		A65B7F0B11CDAF69006D9C53 /* ofxSlitScan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxSlitScan.h; sourceTree = "<group>"; };
-		A65B7F1011CDB00F006D9C53 /* ofxFileDialog.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofxFileDialog.cpp; sourceTree = "<group>"; };
-		A65B7F1111CDB00F006D9C53 /* ofxFileDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxFileDialog.h; sourceTree = "<group>"; };
 		E45BE0390E8CC647009D7055 /* FreeImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FreeImage.h; path = ../../../libs/freeimage/include/FreeImage.h; sourceTree = SOURCE_ROOT; };
 		E45BE03F0E8CC650009D7055 /* fmod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = fmod.h; path = ../../../libs/fmodex/include/fmod.h; sourceTree = SOURCE_ROOT; };
 		E45BE0400E8CC650009D7055 /* fmod.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = fmod.hpp; path = ../../../libs/fmodex/include/fmod.hpp; sourceTree = SOURCE_ROOT; };
@@ -189,6 +185,10 @@
 		E7C73A6E116D873B007B4A3E /* soft_noise.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = soft_noise.png; sourceTree = "<group>"; };
 		E7C73A6F116D873B007B4A3E /* up_to_down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = up_to_down.png; sourceTree = "<group>"; };
 		E7C73A70116D873B007B4A3E /* video_delay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = video_delay.png; sourceTree = "<group>"; };
+		E7E5E49912B800A20041B0F0 /* ofxFileDialog.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofxFileDialog.cpp; sourceTree = "<group>"; };
+		E7E5E49A12B800A20041B0F0 /* ofxFileDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxFileDialog.h; sourceTree = "<group>"; };
+		E7E5E49C12B800A20041B0F0 /* ofxSlitScan.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofxSlitScan.cpp; sourceTree = "<group>"; };
+		E7E5E49D12B800A20041B0F0 /* ofxSlitScan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxSlitScan.h; sourceTree = "<group>"; };
 		E7FC335A10F8EABF00D3A183 /* Instructions.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Instructions.txt; sourceTree = "<group>"; };
 		E7FC335B10F8EABF00D3A183 /* install.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = install.xml; sourceTree = "<group>"; };
 		E7FC335D10F8EABF00D3A183 /* ofxDirList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofxDirList.cpp; sourceTree = "<group>"; };
@@ -240,34 +240,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A65B7F0911CDAF69006D9C53 /* ofxSlitScan */ = {
-			isa = PBXGroup;
-			children = (
-				A65B7F0B11CDAF69006D9C53 /* ofxSlitScan.h */,
-				A65B7F0A11CDAF69006D9C53 /* ofxSlitScan.cpp */,
-			);
-			name = ofxSlitScan;
-			path = ../../../addons/ofxSlitScan;
-			sourceTree = SOURCE_ROOT;
-		};
-		A65B7F0D11CDB00F006D9C53 /* ofxFileDialog */ = {
-			isa = PBXGroup;
-			children = (
-				A65B7F0F11CDB00F006D9C53 /* src */,
-			);
-			name = ofxFileDialog;
-			path = ../../../addons/ofxFileDialog;
-			sourceTree = SOURCE_ROOT;
-		};
-		A65B7F0F11CDB00F006D9C53 /* src */ = {
-			isa = PBXGroup;
-			children = (
-				A65B7F1011CDB00F006D9C53 /* ofxFileDialog.cpp */,
-				A65B7F1111CDB00F006D9C53 /* ofxFileDialog.h */,
-			);
-			path = src;
-			sourceTree = "<group>";
-		};
 		E45BE0360E8CC5DE009D7055 /* libs */ = {
 			isa = PBXGroup;
 			children = (
@@ -598,11 +570,39 @@
 			path = bin/data/maps;
 			sourceTree = "<group>";
 		};
+		E7E5E49712B800A20041B0F0 /* ofxFileDialog */ = {
+			isa = PBXGroup;
+			children = (
+				E7E5E49812B800A20041B0F0 /* src */,
+			);
+			name = ofxFileDialog;
+			path = addons/ofxFileDialog;
+			sourceTree = "<group>";
+		};
+		E7E5E49812B800A20041B0F0 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				E7E5E49912B800A20041B0F0 /* ofxFileDialog.cpp */,
+				E7E5E49A12B800A20041B0F0 /* ofxFileDialog.h */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		E7E5E49B12B800A20041B0F0 /* ofxSlitScan */ = {
+			isa = PBXGroup;
+			children = (
+				E7E5E49C12B800A20041B0F0 /* ofxSlitScan.cpp */,
+				E7E5E49D12B800A20041B0F0 /* ofxSlitScan.h */,
+			);
+			name = ofxSlitScan;
+			path = addons/ofxSlitScan;
+			sourceTree = "<group>";
+		};
 		E7FC335710F8EAB100D3A183 /* addons */ = {
 			isa = PBXGroup;
 			children = (
-				A65B7F0D11CDB00F006D9C53 /* ofxFileDialog */,
-				A65B7F0911CDAF69006D9C53 /* ofxSlitScan */,
+				E7E5E49712B800A20041B0F0 /* ofxFileDialog */,
+				E7E5E49B12B800A20041B0F0 /* ofxSlitScan */,
 				E7FC336010F8EAE200D3A183 /* ofxXmlSettings */,
 				E7FC335810F8EABF00D3A183 /* ofxDirList */,
 			);
@@ -753,8 +753,8 @@
 				E7FC336C10F8EAE200D3A183 /* tinyxmlparser.cpp in Sources */,
 				E7FC336D10F8EAE200D3A183 /* ofxXmlSettings.cpp in Sources */,
 				E7FC33C410F8EB5100D3A183 /* slitScanApp.cpp in Sources */,
-				A65B7F0C11CDAF69006D9C53 /* ofxSlitScan.cpp in Sources */,
-				A65B7F1211CDB00F006D9C53 /* ofxFileDialog.cpp in Sources */,
+				E7E5E49E12B800A20041B0F0 /* ofxFileDialog.cpp in Sources */,
+				E7E5E49F12B800A20041B0F0 /* ofxSlitScan.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

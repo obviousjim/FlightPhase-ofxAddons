@@ -185,7 +185,7 @@ void slitScanApp::update(){
 void slitScanApp::draw(){
 	
 	if(!useLiveVideo){
-		//weird video player bug...
+		//weird video player bug... may not need this any more
 		vidPlayer.play();
 	}
 	
