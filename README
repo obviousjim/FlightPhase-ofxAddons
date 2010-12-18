@@ -34,7 +34,7 @@ Why would you use this instead of a movie file? A few reasons,
 
 ofxQTKitVideoGrabber
 /// ************************************
-This addon replaces the functionality of the standard ofMovieGrabber
+This addon replaces the functionality of the standard ofVideoGrabber
 but uses the QTKit Objective-C Libraries to drive the video display.
 These libraries are naturally GPU enabled, multi-threaded, as well
 as supporting more Quicktime capture codecs such as HDV.
@@ -44,13 +44,30 @@ to the openFrameworks Xcode project
 
 Requires Mac OS 10.5 or greater
 
+ofxQTKitVideoPlayer
+/// ************************************
+Replaces the functionality of the standard ofVideoPlayer
+using the QTKit Objective-C Libraries. Should be considerably faster
+for big videos.
+
+This addon has been following me around for the last year and has been
+useful in a number of different projects with the Rockwell Group LAB (http://lab.rockwellgroup.com)
+and FlightPhase (http://www.flightphase.com)
+
+Special Thanks to Marek Bereza for his initial ofxQTKitVideoTexture
+http://www.mrkbrz.com/ which i borrowed some code from
+
+and also thanks to Anton Marini for help wrangling buffer contexts.
+http://vade.info/ 
+
+You will need to add the QTKit.framework and CoreVideo.framework
+to the openFrameworks Xcode project
 
 ofxProjectorBlend
 /// ************************************
 This class is an openFrameworks wrapper for this technique:
 from http://local.wasp.uwa.edu.au/~pbourke/texture_colour/edgeblend/
-Original Core Image filter converted by James George ( http://www.jamesgeorge.org/ )
-for ofxProjectorBlend addon for openFrameworks ( http://www.openframeworks.cc )
+Original Core Image filter converted to openFrameworks via a GLSL shader
 
 Originally used in the Infiniti MOI project for projector blending ( http://vimeo.com/14588336 )
 
