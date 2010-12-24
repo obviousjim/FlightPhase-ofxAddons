@@ -292,6 +292,18 @@ void ofxQTKitVideoPlayer::setLoopState(bool loops)
 	[pool release];
 }
 
+void ofxQTKitVideoPlayer::setLoopState(int ofLoopState)
+{
+	if(ofLoopState == OF_LOOP_NONE){
+		setLoopState(false);
+	}
+	else if(ofLoopState == OF_LOOP_NORMAL){
+		setLoopState(true);
+	}
+	
+	//TODO support OF_LOOP_PALINDROME
+}
+
 bool ofxQTKitVideoPlayer::getMovieLoopState()
 {
 	if(moviePlayer == NULL) return NO;
