@@ -1,19 +1,21 @@
-///************************************** //////
-/// openFrameworks addons by Flightphase  /////
-///                                       ////
-/// http://www.flightphase.com            ///
-///                                       //
-/// ************************************  /
-
+*******************************************
 ************ IMPORTANT ********************
-These addons are all openFrameworks 0062 compatible.
+*******************************************
 
-They are not currently being maintained. The new 007
-versions are here:
+These addons are all openFrameworks 0062.
+
+They are not currently being maintained.
+The new 007 versions are here:
 https://github.com/flightphase
 
 Please look to there from now on.
+
 *******************************************
+*******************************************
+*******************************************
+
+openFrameworks addons by Flightphase
+http://www.flightphase.com
 
 These openFrameworks addons were created for interactive motion graphics projects and 
 are hopefully reusable.
