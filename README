@@ -2,9 +2,6 @@
 ************ IMPORTANT ********************
 *******************************************
 
-These addons are all openFrameworks 0062.
-
-They are not currently being maintained.
 The new 007 versions are here:
 https://github.com/flightphase
 
@@ -13,96 +10,3 @@ Please look to there from now on.
 *******************************************
 *******************************************
 *******************************************
-
-openFrameworks addons by Flightphase
-http://www.flightphase.com
-
-These openFrameworks addons were created for interactive motion graphics projects and 
-are hopefully reusable.
-
-They are released under the MIT license and can be used for whatever you want.
-
-If you improve or extend them, please consider sending it back our way!
-
-addon code written by James George + friends
-art: http://www.jamesgeorge.org
-
-ofxImageSequence
-/// ************************************
-This addon is for loading a series of image files
-and accessing them like you would frames of a movie.
- 
-This class loads only textures to the graphics card and does not store pixel data in memory. This helps with
-fast, random access drawing of sequences without too much memory overhead.
-
-Why would you use this instead of a movie file? A few reasons,
-
- * If you want truly random frame access with no lag on large images, ofxImageSequence allows it
-
- * If you need a movie with alpha channel the only readily available codec 
-	is Animation (PNG) which is slow at large resolutions, so this class can help with that
-	
- * If you want to easily access frames based on percents this class makes that easy
-
-
-ofxQTKitVideoGrabber
-/// ************************************
-This addon replaces the functionality of the standard ofVideoGrabber
-but uses the QTKit Objective-C Libraries to drive the video display.
-These libraries are naturally GPU enabled, multi-threaded, as well
-as supporting more Quicktime capture codecs such as HDV.
-
-You will need to add the QTKit.framework and CoreVideo.framework
-to the openFrameworks Xcode project
-
-Requires Mac OS 10.5 or greater
-
-ofxQTKitVideoPlayer
-/// ************************************
-Replaces the functionality of the standard ofVideoPlayer
-using the QTKit Objective-C Libraries. Should be considerably faster
-for big videos.
-
-This addon has been following me around for the last year and has been
-useful in a number of different projects with the Rockwell Group LAB (http://lab.rockwellgroup.com)
-and FlightPhase (http://www.flightphase.com)
-
-Special Thanks to Marek Bereza for his initial ofxQTKitVideoTexture
-http://www.mrkbrz.com/ which i borrowed some code from
-
-and also thanks to Anton Marini for help wrangling buffer contexts.
-http://vade.info/ 
-
-You will need to add the QTKit.framework and CoreVideo.framework
-to the openFrameworks Xcode project
-
-ofxProjectorBlend
-/// ************************************
-This class is an openFrameworks wrapper for this technique:
-from http://local.wasp.uwa.edu.au/~pbourke/texture_colour/edgeblend/
-Original Core Image filter converted to openFrameworks via a GLSL shader
-
-Originally used in the Infiniti MOI project for projector blending ( http://vimeo.com/14588336 )
-
-This shader is capable of blending multiple projections on all sides, but ofxProjectorBlend currently
-just uses the shader for two projections at once.
-
-ofxTSPSReceiver
-/// ************************************
-This addon is a wrapper for receiving openTSPS (http://www.opentsps.com) People Tracking data
-in a separate openFrameworks project.  This is useful for quickly prototyping interactive
-designs without having to add all the computer vision code to your oF
-project.
-
-For another example of a project using this addon, check out the sourcecode from workshop
-flightphase participated in during Open/Public Lab in September 2010:
-https://github.com/obviousjim/OpenPublicWorkshop
-
-For this example to work you must be running an instance of OpenTSPS configured
-to send OSC data to this IP on port 12000
-
-ofxAlphaMaskShader
-/// ************************************
-Not really an add on, but an example of how to use a shader to use one
-image as the alpha channel of another, much like an image mask in photoshop/
-
